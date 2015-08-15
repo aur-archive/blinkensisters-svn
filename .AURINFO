@@ -1,0 +1,20 @@
+pkgbase = blinkensisters-svn
+	pkgdesc = Open source jump'n'run game in 80s retro style (aka 'Hunt for The Lost Pixels', development version)
+	pkgver = r1084
+	pkgrel = 1
+	url = http://blinkensisters.at
+	arch = i686
+	arch = x86_64
+	license = GPL2
+	makedepends = cmake
+	depends = sdl_mixer
+	depends = sdl_image
+	depends = sdl_net
+	depends = sdl_ttf
+	depends = libtheora
+	provides = blinkensisters
+	conflicts = blinkensisters
+	source = blinkensisters::svn+http://svn.code.sf.net/p/blinkensisters/code
+
+pkgname = blinkensisters-svn
+
